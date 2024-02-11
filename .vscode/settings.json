@@ -1,0 +1,8 @@
+{
+  "deno.enablePaths": ["./"],
+  "deno.enable": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
