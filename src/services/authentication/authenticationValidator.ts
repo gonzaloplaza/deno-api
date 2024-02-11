@@ -14,5 +14,5 @@ export const authenticateRequestValidator = zValidator(
     if (!result.success) {
       throw new HTTPException(401, { message: "Unauthorized" });
     }
-  }
+  },
 );

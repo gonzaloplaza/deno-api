@@ -1,15 +1,17 @@
 # DENO-API
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://www.typescriptlang.org/)
-![deno compatibility](https://shield.deno.dev/deno/1.40.4)
+[![deno compatibility](https://shield.deno.dev/deno/1.40.4)](https://deno.com)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/gonzaloplaza/express-ts-ddd)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Simple JSON REST API built with Deno JavaScript Runtime (https://deno.com) and Hono Framework 4.0 (https://hono.dev).
+Simple JSON REST API built with Deno JavaScript Runtime (https://deno.com) and
+Hono Framework 4.0 (https://hono.dev).
 
 ## Installation
 
-Install Deno Runtime (https://docs.deno.com/runtime/manual/getting_started/installation)
+Install Deno Runtime
+(https://docs.deno.com/runtime/manual/getting_started/installation)
 
 ```bash
 curl -fsSL https://deno.land/install.sh | sh
@@ -22,7 +24,7 @@ deno info
 deno --version
 ```
 
-Copy `.env.example` to `.env`
+Copy `.env.example` content to `.env`
 
 ### Run dev server (watch file changes)
 

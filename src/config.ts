@@ -1,4 +1,4 @@
-import { loadSync } from "hono/dotenv";
+import { loadSync } from "dotenv";
 
 const env = loadSync();
 

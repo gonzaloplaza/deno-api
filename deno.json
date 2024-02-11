@@ -10,11 +10,11 @@
     "@services/": "./src/services/",
     "hono": "https://deno.land/x/hono@v4.0.0/mod.ts",
     "hono/middleware": "https://deno.land/x/hono@v4.0.0/middleware.ts",
-    "hono/assert": "https://deno.land/std@0.215.0/assert/mod.ts",
-    "hono/expect": "https://deno.land/x/expect@v0.4.0/mod.ts",
-    "hono/dotenv": "https://deno.land/std@0.215.0/dotenv/mod.ts",
-    "hono/http-exception": "https://deno.land/x/hono@v4.0.0/http-exception.ts",
     "hono/zod-validator": "npm:@hono/zod-validator",
+    "assert": "https://deno.land/std@0.215.0/assert/mod.ts",
+    "expect": "https://deno.land/x/expect@v0.4.0/mod.ts",
+    "dotenv": "https://deno.land/std@0.215.0/dotenv/mod.ts",
+    "testing/": "https://deno.land/std@0.215.0/testing/",
     "zod": "npm:zod"
   }
 }

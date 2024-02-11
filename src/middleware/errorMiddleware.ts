@@ -1,4 +1,4 @@
-import { Context, HTTPException } from "hono";
+import { Context, HTTPException } from 'hono';
 
 export const handleError = (error: Error, context: Context) => {
   console.error(`${error.message}`);
@@ -9,28 +9,28 @@ export const handleError = (error: Error, context: Context) => {
         error: error.message,
         code: error.status,
       },
-      error.status
+      error.status,
     );
   }
 
-  if ("status" in error) {
+  if ('status' in error) {
     return context.json(
       {
-        error: error.message || "Unknown error",
+        error: error.message || 'Unknown error',
         status: error.status || 500,
       },
-      error.status || 500
+      error.status || 500,
     );
   }
 
   return context.json(
     {
-      error: error.message || "Unknown error",
+      error: error.message || 'Unknown error',
       status: 500,
     },
-    500
+    500,
   );
 };
 
 export const handleNotFoundError = (context: Context) =>
-  context.json({ error: "Route Not Found", code: 404 }, 404);
+  context.json({ error: 'Route Not Found', code: 404 }, 404);

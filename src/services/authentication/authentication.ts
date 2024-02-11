@@ -9,9 +9,9 @@ type AuthenticationResponse = {
 };
 
 export const authenticate = (
-  request: AuthenticationRequest
+  request: AuthenticationRequest,
 ): Promise<AuthenticationResponse> =>
   Promise.resolve({
     username: request.username,
-    token: "thisIsAToken",
+    token: "",
   });
